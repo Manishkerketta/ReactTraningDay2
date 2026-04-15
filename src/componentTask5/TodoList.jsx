@@ -7,12 +7,12 @@ export default function TodoList() {
   ];
 
   return (
-    <ul>
+    <div>
       {tasks.map((item) => (
         <li key={item.id}>
           {item.text} <button>Delete</button>
         </li>
       ))}
-    </ul>
+    </div>
   );
 }
