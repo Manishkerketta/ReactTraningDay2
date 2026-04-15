@@ -11,9 +11,9 @@ const UserProfile = ({ username, age, isAdmin}) => {
 export default function Dashboard() {
   return (
     <div>
-      <UserProfile username="Manish" age={20} isAdmin={true} />
-      <UserProfile username="Alex" age={25} isAdmin={false} /> 
-      <UserProfile username="Sarah" age={22} isAdmin={true} />
+      <UserProfile username="Ironman" age={20} isAdmin={true} />
+      <UserProfile username="Batman" age={25} isAdmin={false} /> 
+      <UserProfile username="Spiderman" age={22} isAdmin={true} />
     </div>
   );
 }
